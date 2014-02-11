@@ -1,4 +1,4 @@
-directives.directive('transformCheckbox', [
+directives.directive('transformRadio', [
   function() {
     return {
       restrict: 'A',
