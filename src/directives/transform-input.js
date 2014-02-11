@@ -3,7 +3,8 @@ directives.directive('transformInput', [
     return {
       restrict: 'A',
       link: function($scope, $element, $attrs) {
-          $element.addClass('angular-transform-input').wrap("<div class='angular-transform-input-wrapper'></div>");
+        $element.addClass('angular-transform-input')
+          .wrap("<div class='angular-transform-input-wrapper'></div>");
       }
     }
   }
