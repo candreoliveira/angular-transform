@@ -1,0 +1,23 @@
+{
+  "name": "AngularTransform",
+  "version": "0.0.1",
+  "description": "",
+  "main": "config/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:candreoliveira/angular-transform.git"
+  },
+  "author": "Carlos André Oliveira, Jeferson Leão, Felipe Morais",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-usemin": "~2.0.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
